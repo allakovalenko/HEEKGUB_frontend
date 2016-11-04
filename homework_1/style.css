@@ -1,0 +1,54 @@
+html{
+	padding:0;
+	margin:0;
+}
+header {
+	text-align: center;
+    font-family: Times New Roman;
+	margin:100px 10px 0 10px;
+}
+.weight_h2 {
+	font-weight:200;
+	margin-top: -20px;
+}
+
+
+.box{
+	border: solid 2px grey;
+	margin: 25%;
+	margin-top: 10px;
+}
+	
+.page {
+	margin:10%;
+	margin-top:0;
+	
+}
+
+
+.line {
+	text-decoration: underline;
+}
+.text_center {
+	text-align: center;
+}
+.image1{
+	width: 40%;
+	float: left;
+	margin-right:10px;
+	padding:0;
+}
+.image1 img{ 
+	width:100%;
+}
+.text_right{
+	text-align: right;
+	
+}
+.image2{
+	width: 50%;
+	margin-left: 25%;	
+}
+.image2 img{
+	width:100%;
+}
