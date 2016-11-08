@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>homework_2</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta charset="utf-8">
+	</head>
+	<body class= "wrapper"> 
+		<header>
+			<h1>Урок "Формы": теги и их атрибуты.</h1>
+				<h2>Расскажи немного о себе...</h2>
+					<p>Попробуйте создать аналогичную форму. Для целей демонстрации вполне подойдут т вымышленные.</p>
+		</header>
+			<form action="https://echo.htmlacademy.ru">
+				<fieldset>
+					<legend>Коротко о себе</legend>
+						<p><label for="name">Имя :</label> <input id="name" type="text" name="name"></p>
+						<p><label for="lastname">Фамилия:</label> <input id="lastname" type="text" name="lastname"></p>
+						<p><label for="sex">Пол:</label> <input id="sex" type="radio" name="sex" value="мужской"checked>мужской
+							<input id="sex" type="radio" name="sex" value="женский">женский</p>
+						<p><label for="age"> Возраст:</label> <input class="old" id="age" type="text" name="age"> лет</p>
+				</fieldset>
+				</br>
+				<fieldset>
+					<legend>Подробнее о себе</legend>
+						<input id="myself" type="radio" name="Молодой человек" checked> <label for="myself">Молодой человек</label></br>
+						<input id="myself" type="radio" name="Девушка"> <label for="myself">Девушка</label></br>
+						<input id="dob" type="text" > <label for="dob">Дата рождения</label></br>
+						<input id="married" type="text" > <label for="married">Семейное положение</label></br>
+						<input id="social" type="text" > <label for="social">Социальный статус</label></br>
+						<input id="residence" type="text"> <label for="residence">Местожительство</label>
+						<p><b>Что вы обычно делаете на выходных:</b></p>
+							<ul>
+								<li><input id="slеep" type="checkbox"> <label for="slеep">Сплю</label></li>
+								<li><input id="wolk" type="checkbox"> <label for="wolk">Гуляю с друзьями</label></li>
+								<li><input id="fishing" type="checkbox"> <label for="fishing">Хожу на рыбалку</label></li>
+								<li><input id="play" type="checkbox"> <label for="play">Играю в игры</label></li>
+							</ul>
+							<p> Рассказать о формах в книге, посвященной HTML:</p>
+							<select>
+								<option> Site frequency:</option>
+							</select>
+							<p>Сколько книг вы прочитали за всю жизнь:</p>
+								<ul>
+									<li><input value="qty0_10" type="radio"name="question-books"> <label for="myself">0-10</label></li>
+									<li><input value="qty11_20" type="radio"name="question-books" > <label for="myself">11-20</label></li>
+									<li><input value="qty21_50" type="radio"name="question-books"> <label for="myself">21-50</label></li>
+									<li><input value="qty50_" type="radio"name="question-books"> <label for="myself">50+</label></li>
+								</ul>
+							<p>Ваши комментарии:</p>
+								<textarea rows="10" cols="40"> </textarea>
+							<p>
+								<select multiple size="3" name="position">
+									<option value="first position">Первая позиция</option>
+									<option selected value="second position">Вторая позиция</option>
+									<option value="third position">Третья позиция</option>
+								</select>
+							</p>
+				</fieldset> </br>
+				<fieldset>
+					<legend>И в заключении</legend>
+						<input class="final"type="text" placeholder="Это поле было введено до вас"disabled>
+						<p><label for="email"><b>Email:</b></label></br> <input class="final"id="email" type="text" name="email"></p>
+						<p>Хотите подписаться на самую модную рассылку спама?</br>
+							<i>Выберите категории</i></p>
+								<ul>
+									<li><input id="one" type="checkbox"> <label for="one">Оборудование</label></li>
+									<li><input id="two" type="checkbox"> <label for="two">Как приготовить обеды</label></li>
+									<li><input id="three" type="checkbox"> <label for="three">Заработай миллион за два дня!</label></li>
+								</ul>
+						<p>На сколько сложная задача:</p>
+							<ul>
+									<li><input value="low" type="radio"name="question-task"checked> <label for="myself">Совсем нет</label></li>
+									<li><input value="soso" type="radio"name="question-task"> <label for="myself">Так себе</label></li>
+									<li><input value="hardly" type="radio"name="question-task"> <label for="myself">Еле справилась</label></li>
+							</ul>
+				</fieldset>
+				<p><input type="submit" value="Отправить"></p>
+			</form>
+	</body>
+</html>

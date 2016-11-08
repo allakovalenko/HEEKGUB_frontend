@@ -1,0 +1,15 @@
+.wrapper{
+	margin-left: 20px;
+	padding: 0;
+	width: 800px;
+	}
+.old {
+	width: 50px;
+}
+li {
+list-style-type: none;
+margin-left: -40px;
+}
+.final {
+	width:200px;
+}
