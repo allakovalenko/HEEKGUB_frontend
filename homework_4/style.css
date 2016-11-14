@@ -1,0 +1,166 @@
+.wrapper {
+    width: 775px;
+    height: 680px;
+   margin-left: 20%;
+}
+.logo {
+    position: relative;
+    height: 80px;
+    width: 675px;
+ }
+.logo1  {
+    position: relative;
+    bottom: 80px;
+    left:35px;
+    color: white;
+    width: 200px;
+}
+
+.nav {
+    font: 400 16.66px / 11.796px 'Myriad Pro';
+    border-spacing: 30px 10px;
+}
+.menu {
+    margin-top: -65px;
+    width: 675px;
+}
+.main {
+    margin-top: -15px;
+    width: 675px;
+    height: 191px;
+}
+
+.layer1 {
+    position: absolute;
+    margin:10px;
+    
+}
+.layer2 {
+    position: relative;
+    left: 275px;
+    top: 25px;
+    font-family: HelveticaNeueLTPro;
+    font-size: 26.65px;
+}
+.layer3 {
+    position: relative;
+    width: 325px;
+   
+    left: 325px;
+    top:10px;
+}
+.weight {
+    font-weight: 100;
+    opacity: 0.9;
+    font-family: HelveticaNeueLTPro;
+}
+.layer4 {
+    position: relative;
+    bottom: 221px;
+}
+.layer5 {
+    position: relative;
+    left: 325px;
+    bottom: 255px;
+}
+.about lab{
+    position: absolute;
+    top: 350px;
+    margin-left: 25px;
+}
+.line2 {
+    position: relative;
+    left: 245px;
+    width: 1px;
+    top: 35px;
+}
+
+.section1 {
+    width: 380px;
+}
+.foto1 {
+    float: left;
+    padding-top: 20px;
+}
+.news1 {
+    float: right;
+    width: 210px;
+    }
+.section2 {
+    width: 380px;
+}
+.foto2 {
+    float: left;
+    padding-right:10px;
+    padding-top: 20px;
+}
+.news2 {
+    float: right;
+    width: 210px;
+   }
+.CompanyName {
+    position: relative;
+    margin-left: 25px;
+    bottom: 195px;
+}
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+.line1 {
+    width: 379px;
+}
+
+.section {
+    position: relative;
+    width: 450px;
+    height: 240px;
+    left: 270px;
+    bottom: 210px;
+    
+    
+}
+
+.aboutlab {
+    width: 210px;
+    position: absolute;
+    padding-top: 5px;
+}
+
+.line {
+    position: relative;
+    bottom: 200px;
+}
+
+
+
+
+
+p {
+   font: 400 11px / 14px Tahoma;
+    font-family: sans-serif;
+}
+
+
+
+.consetetur {
+    color: #80a60f;
+    font: 700 11px Tahoma;
+    font-family: sans-serif;
+
+}
