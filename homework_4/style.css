@@ -32,8 +32,7 @@
 
 .layer1 {
     position: absolute;
-    margin:10px;
-    
+    margin-top: 10px;
 }
 .layer2 {
     position: relative;
