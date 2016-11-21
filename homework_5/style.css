@@ -1,0 +1,230 @@
+
+html, body {
+	margin: 0;
+    padding: 0;
+}
+.wrapper{
+	background: linear-gradient(to bottom, rgb(217, 223, 225), rgb(255, 255, 255));
+	border:1px solid grey;
+	width:1200px;
+	padding-left: 200px;
+	margin-left:10%;
+
+}
+
+.page{
+	width: 760px;
+	margin-left: 70px;
+}
+h1 {
+	font-size: 15px;
+	font-family: Regular;
+	float: right;
+	color: grey;
+	margin-top:50px;
+	margin-right:15px;
+	}
+	
+/* logo*/
+.logo1 {
+	position: relative;
+	left: 150px;
+	top: 15px;
+}
+.logo {
+	width: 175px;
+	height: 83px;
+	position:absolute;
+	top: 5px;
+	left: -170px;
+	}
+.logo1 p {
+	font-family: AFKLampenborg;
+	font-size: 20px;
+	color: grey;
+	display: inline-block;
+	height: 38px;
+	width: 101px;
+}
+/* регистрация*/
+.login {
+	position: relative;
+	left: 610px;
+	bottom: 78px;
+	border-radius: 8px;
+	background: white;
+	width: 140px;
+	height:20px;
+	text-align: center;
+	
+}
+.blue {
+	color: blue;
+}
+.black {
+	color: black;
+}
+/* вкладки*/
+
+.page1 {
+  width:760px;
+  white-space: nowrap;
+    
+
+}
+.page1 > input {
+	display: none;
+	
+	
+}
+.page1 >  input + label {
+	
+	display: inline-block;
+	border: 1px solid gray;
+	margin-right:-5px;
+	padding:10px;
+	cursor: pointer;
+	border-radius: 5px 5px 0 0;
+	position:relative;
+	left:250px;
+	}
+	.page1 > input + label:last-of-type::before {
+   display: block;
+    border-bottom: 1px solid gray;
+
+    width:670px;
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    right: 90%;
+}
+.page1 > input:checked + label {
+    color: blue;
+    border-bottom: none;
+    padding-bottom: 5px;
+}
+.page1 > input:checked + label:last-of-type::after {
+    bottom: 0px;
+}
+.page1 > div {
+    white-space: normal;
+    display: none;
+    
+    border-top: none;
+    margin: 0px;
+    padding: 2px 20px;
+    
+    
+    
+}
+.page1 > input:nth-of-type(1):checked ~ div:nth-of-type(1),
+.page1 > input:nth-of-type(2):checked ~ div:nth-of-type(2),
+.page1 > input:nth-of-type(3):checked ~ div:nth-of-type(3)
+{
+    display: block;
+}
+
+
+.container {
+	clear:both;
+	}
+.container  .content {
+	/*float:right;*/
+	position: relative;
+	width:530px;
+	margin-top: -1050px;
+	
+	}
+.container2,
+.container3{
+	float: right;
+	
+}
+.sidebar {
+	float:left;
+	width: 230px;
+	margin-top:90px;
+	
+	
+}
+.sidebar1 li {
+	list-style-type: none;
+	margin: 10px;
+	border-bottom: 2px solid rgb(206, 206, 206);
+	margin-left: -40px;
+	padding-top:2px;
+}
+.categories {
+	color: blue;
+	}
+.center{
+	margin-left:50px;
+}
+	.sidebar2{
+	margin-top: 50px;
+}
+.sidebar2 li {
+	list-style-type: none;
+	margin-top: 20px;
+	margin-left:10px;
+	}
+	/* таблицы*/
+.container {
+	float:right;
+	width: 530px;
+	
+	
+}
+.container li {
+	list-style-type: none;
+}
+.cube {
+	float: left;
+	margin-right: 15px;
+	margin-top: 5px;
+}
+
+h3 {
+	float: left;
+	margin: 5px;
+	}
+table {
+	width: 370px;
+	border-spacing: 0 2px;
+	
+}
+thead td {
+		background-color: rgb(206, 206, 206);
+			}
+td {
+	padding-left:5px;
+}
+
+ tfoot tr:nth-child(2n){
+		background-color: rgb(223, 229, 230);
+		
+		
+}
+tfoot tr:nth-child(2n+1){
+		background-color: rgb(206, 206, 206);
+}
+footer {
+	margin-bottom:50px;
+	position: relative;
+	clear:both;
+}
+
+.wordpress p {
+	font-size: 10px;
+	margin-top: -10px;
+    margin-left: 300px;
+	background: rgb(206, 206, 206);
+	border-radius:0 0 8px 8px;
+	height:20px;
+	padding-left: 5px;
+	padding-top: 10px;
+	}
+.moc {
+			float:right;
+			padding-right: 10px;
+	}

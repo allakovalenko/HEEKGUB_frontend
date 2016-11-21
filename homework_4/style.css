@@ -1,29 +1,192 @@
 .wrapper {
-    width: 775px;
-    height: 680px;
-   margin-left: 20%;
-}
-.logo {
-    position: relative;
-    height: 80px;
-    width: 675px;
- }
-.logo1  {
-    position: relative;
-    bottom: 80px;
-    left:35px;
-    color: white;
-    width: 200px;
+	width: 775px;
+	display: table;
+	margin: 0;
+    padding: 0;
+	margin-left:20%;
+	border: 1px solid gray;
+    
 }
 
-.nav {
-    font: 400 16.66px / 11.796px 'Myriad Pro';
-    border-spacing: 30px 10px;
+.logo {
+    width: 775px;
+    height: 80px;
+    background: rgb(128, 166, 15);
 }
-.menu {
-    margin-top: -65px;
-    width: 675px;
+
+.menu ul {
+	
+	margin-left:40px;
+    padding: 0px 0;
+    overflow: hidden;
+    color: #093500;
+    font-size: 20px;
+    list-style: none;
+    
 }
+.menu li {
+   margin-left: 10px;
+    display: inline-block;
+   
+}
+
+.menu li:nth-child(n+2):before {
+    content: "";
+    display: inline-block;
+    margin:0 25px;
+    width: 11px;
+    height: 11px;
+    background: url(arrow.png) no-repeat;
+} 
+.logotext {
+    padding-left: 30px;
+    padding-top: 25px;
+    font-size: 32px;
+    font-family: Tahoma;
+    margin: 15px 0;
+    color:white;
+}
+.img1{
+	width:400px;
+
+	
+
+
+}
+h2 {
+	position:relative;
+	right:50px;
+	font-family: HelveticaNeueLTPro;
+	font-size: 26.65px;
+	color:rgb(9, 53, 0);
+
+}
+h3 {
+	color:rgb(9, 53, 0);
+	
+}
+
+.normal{
+	font-weight: normal;
+	color:rgb(9, 53, 0);
+}
+.welcome {
+	float:right;
+	width: 365px;
+	left: 380px;
+	top: 250px;
+	padding-top:50px;
+	padding-right:10px;
+	
+
+}
+a  . arrow{
+	display:block;
+	width:15px;
+	height:5px;
+	margin-top: 20px;
+	background: url(arrow1.png) no-repeat;
+}
+
+.aboutlab {
+	float: left;
+	width:280px;
+	height:200px;
+	margin-left:30px;
+	margin-top:30px;
+	border-right: 1px solid gray;
+	padding-right:20px;
+	opacity:0px;
+}
+.lab p {
+	font: 400 11px / 12px Tahoma;
+    font-family: sans-serif;
+	color:rgb(9, 53, 0);
+}
+
+.news {
+	margin-right:35px;;
+}
+.news1 p {
+	font: 400 11px / 12px Tahoma;
+    font-family: sans-serif;
+	color:rgb(9, 53, 0);
+}
+
+.news1{
+	float: right;
+	width:390px;
+	
+}
+.foto,
+.foto2 {
+	float: left;
+	padding-right:20px;
+	
+}
+.foto2{
+	padding-top:20px;
+}
+.news1 li:last-child {
+	list-style-type: none;
+	border-top:1px solid gray;
+	padding-top:5px;
+}
+.news1 li {
+	list-style-type: none;
+} 
+.consetetur {
+	color: rgb(128, 166, 15);
+
+}
+footer {
+	height: 20px;
+	float: left;
+	width:735px;
+	margin-bottom:20px;
+	margin-left:20px;
+
+}
+.CompanyName {
+	color:rgb(9, 53, 0);
+	font-size:12px;
+
+	
+}
+/*
+.img1{
+	float: left;
+	padding-bottom:50px;
+}
+.lab {
+	padding:10px;
+	background-color:#edeffb;
+}
+.{
+	font-weight: normal;
+	color: #093500;
+	margin-top: 50px;
+	text-shadow: 1px 1px 1px #D2CFCF;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .main {
     margin-top: -15px;
     width: 675px;
@@ -103,21 +266,13 @@
     bottom: 195px;
 }
 
-
+*/
 
 
 
     
 
-
-
-
-
-
-
-
-
-
+/*
 
 
 
@@ -161,5 +316,26 @@ p {
     color: #80a60f;
     font: 700 11px Tahoma;
     font-family: sans-serif;
-
 }
+
+.logotext {
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 32px;
+    font-family: Tahoma;
+    margin: 15px 0;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
