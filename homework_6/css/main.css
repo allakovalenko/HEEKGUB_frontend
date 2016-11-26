@@ -1,0 +1,446 @@
+body {
+  font:18px "Droidserif",sans-serif;
+}
+.container {
+  margin: 0 auto;
+  width: 1280px;
+}
+/* ---------------welkome-section---------------------------- */
+
+.welkome-section,
+#about-section,
+#portfolio-section,
+#project-title,
+#team-section,
+#contact-section,
+.footer-section {
+  text-align: center;
+  overflow: hidden;
+}
+.welkome-section {
+  position: relative;/* убрать*/
+  height: 100vh;
+  background: url("../images/bg_1.png")50% 0 no-repeat;
+  background-size: cover;
+}
+.slogan {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  -webkit-transform: translatex(-50%);
+  transform: translateX(-50%);
+}
+h1 {
+  font-size: 80px;
+  font-weight: bold;
+  color: #ffffff;
+  height: 155px;
+}
+/*  -----------------header------------------------------------*/
+.welkome-section header.top {
+  position:fixed;
+  top:0;
+  width: 1280px;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: transparent;
+  box-sizing: border-box;
+  margin-top: 60px;
+}
+.headerwrap {
+  position: fixed;
+  z-index: 1001;
+  top:0;
+  lef:0;
+  width: 100%;
+  background: transparent;
+}
+.welkome-section .logo {
+  float: left;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+.main_nav {
+  float: right;
+  margin-right: 25px;
+  margin-top: 25px;
+}
+.main_nav  li {
+  float: left;
+}
+.main_nav  a{
+  display: inline;;
+  padding: 0 20px;
+  line-height: 40px;
+  color: #ffffff;
+  border: 1px solid transparent;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  text-decoration: none;
+}
+.main_nav li a:hover {
+  border-color: #ffffff;
+}
+
+
+ #scrolldown {
+   position: absolute;
+   bottom: 12%;
+   left: 50%;
+   -webkit-transform: translatex(-50%);
+   transform: translateX(-50%);
+   cursor: pointer;
+ }
+ /*  ----------------------about-section------------------------*/
+#about-section,
+#about-section .container{
+   position: relative;
+   height: 1153px;
+   background-color: #34495e ;
+   background-size: cover;
+ }
+ .text {
+   padding-top: 10%;
+   padding-left: 20%;
+   padding-right: 20%;
+}
+.text p {
+  font-size: 24px;
+  margin-top: 10%;
+  text-align: left;
+  line-height: 33.29px;
+  font-family: DroidSerif;
+  }
+ h2,h3, p {
+   color: #ffffff;
+ }
+ h2 {
+   font-size: 45px;
+   text-align: center;
+ }
+ .possible {
+   overflow: hidden;
+   padding:130px 0 30px;
+   margin-left: 100px;
+}
+.possible li {
+  display: inline-block;
+  width: 200px;
+  margin-right: 160px;
+}
+.possible h3 {
+  margin-top: 20px;
+  font-size: 26px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.possible p {
+  font-size: 20px;
+  line-height: 30.29px;
+  font-family: DroidSerif;
+}
+/*  -------------------portfolio-section----------------------------*/
+#portfolio-section {
+  position: relative;
+  height: 1046px;
+  background:#ffffff;
+  background-size: cover;
+  clear: both;
+/*display: none;*/
+}
+
+
+#portfolio-section h2 {
+  color: #000000;
+  font-weight:bold;
+  margin-top: 55px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.portfolio-nav li {
+  display: inline;
+}
+.portfolio-nav li a {button
+  font-size: 30px;
+  line-height: 40px;
+  -webkit-border-radius: 100px;
+  border: 1px solid transparent;
+  border-radius: 100px;
+  padding: 0 20px;
+  color: #000000;
+  text-decoration: none;
+  }
+.portfolio-nav li a:hover {
+    background-color: #2ecc71;
+}
+.portfolio {
+    overflow: hidden;
+    padding:150px 0 50px;
+  }
+.portfolio li {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 50px;
+    margin-right: 10px;
+  }
+.portfolio li:hover .hover-block {
+    display: block;
+  }
+.portfolio li img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+.portfolio .hover-block {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #2c3e50;
+      opacity: 0.9;
+  }
+.table-cell-wrap h4 {
+    margin-top: 30%;
+    font-size: 35px;
+    color: #ffffff;
+    font-family: DroidSans;
+    margin-bottom: 30px;
+  }
+.table-cell-wrap a {
+    border: 1px solid #ffffff;
+    border-radius: 100px;
+    padding: 0 20px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+.table-cell-wrap a:hover{
+    background-color: #2ecc71;
+    border: #2ecc71;
+
+  }
+  /* --------------------------------project-title------------------ */
+ #project-title {
+ display: none;
+}
+  #project-title
+  #project-title .container{
+    position: relative;
+    height: 1046px;
+    background:#ffffff;
+    background-size: cover;
+  }
+  #project-title .category{
+    float: right;
+    width: 510px;
+    margin-top: 120px;
+    margin-right: 250px;
+  }
+  #project-title h3, h2, p {
+    color:#000000;
+    text-align: left;
+  }
+  #project-title h2 {
+    margin-top: 200px;
+    text-align: center;
+}
+  #project-title h3 {
+    font-size: 26px;
+    font-weight: bold;
+}
+#project-title p {
+  font-size: 20px;
+  line-height: 30.29px;
+  font-family: DroidSerif;
+  margin-top: 10px;
+}
+.exit {
+  position: absolute;;
+  margin-top: 50px;
+  margin-left: 500px;
+  }
+#project-title  a:last-child {
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #2ecc71;
+  border: 1px solid transparent;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  text-decoration: none;
+
+  }
+.project {
+  float: left;
+  margin-bottom: 50px;
+  }
+#project-title li {
+  margin-top:100px;
+  width: 470px;
+}
+
+  /*  -----------------------------team-section--------------------*/
+  #team-section,
+  #team-section .container{
+    position: relative;
+    height: 907px;
+    background: #2980b9 50% 0 no-repeat;
+    background-size: cover;
+  }
+  #team-section h2 {
+    font-weight: bold;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#team-section li {
+  display: inline-block;
+  width: 300px;
+  margin-right: 70px;
+  margin-left: 70px;
+}
+#team-section h3 {
+  margin-top: 20px;
+  font-size: 26px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+#team-section p {
+  font-size: 20px;
+  line-height: 30.29px;
+  font-family: DroidSerif;
+  margin-bottom: 30px;
+}
+/*  ---------------------contact-section-----------------------------*/
+#contact-section,
+#contact-section .container{
+  position: relative;
+  height: 860px;
+  background: #ffffff 50% 0 no-repeat;
+  background-size: cover;
+}
+#contact-section h2 {
+  font-family: DroidSans;
+  font-weight: bold;
+  padding-top: 100px;
+  margin-bottom: 50px;
+  color: #2c3e50;
+  text-align: center;
+}
+#contact-section p {
+  font-family: DroidSans;
+  color: #2c3e50;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+}
+.contact {
+  float: left;
+  margin-left: 400px;
+  margin-top: 40px;
+  text-align: left;
+}
+.contact li :enabled {
+  padding-top: 10px;
+  border-bottom: 2px solid #2ecc71;
+}
+input {
+  height: 30px;
+  border: none;
+  margin-top: 10px;
+}
+input[type=text]{
+  width: 250px;
+}
+::-webkit-input-placeholder {
+  color: #2c3e50;
+  font-size: 20px;
+  }
+textarea {
+  border: none;
+}
+.adress {
+  text-align: left;
+  margin-top: 40px;
+  float: right;
+  width: 210px;
+  margin-right: 250px;
+}
+.button {
+  padding: 20px 25px;
+  color: #000000;
+  background-color: #2ecc71;
+  border: 1px solid transparent;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+}
+.button:hover {
+  color: #ffffff;
+}
+h4 {
+  font-family: DroidSans;
+  color:  #2c3e50;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.adress   li {
+  font-weight: normal;
+  font-size: 16px;
+  font-family: DroidSans;
+  color: #2c3e50;
+  text-align: left;
+  font-weight: 100;
+}
+.adress h4, li{
+  margin-bottom: 30px;
+}
+/* --------------------------------------footer-section--------------------- */
+.footer-section,
+.footer-section .container{
+  position: relative;
+  height: 280px;
+  background: #2c3e50 50% 0 no-repeat;
+  background-size: cover;
+
+}
+.footer-section .logo {
+  position: relative;
+  right: 500px;
+  top: 60px;
+}
+
+.info li {
+  display: inline-block;
+  width: 250px;
+  height: 70px;
+  margin-top: 100px;
+  margin-right:30px;
+  -webkit-transform: translatex(-50%);
+  transform: translateX(-50%);
+}
+.info p {
+  color: #ffffff;
+}
+.info li a{
+  margin-right: 5px;
+
+}
+
+/*  =======scrollup===========*/
+/*#scrollup {
+position: absolute;
+-webkit-transform: translatex(-50%);
+transform: translateX(-50%);
+cursor: pointer;
+padding: 15px 10px 10px;
+background: #2c3e50;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+right: 0px;
+bottom: 10px;
+}
+*/
