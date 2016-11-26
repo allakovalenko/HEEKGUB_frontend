@@ -396,6 +396,7 @@ h4 {
 }
 .adress h4, li{
   margin-bottom: 30px;
+  font-family: DroidSans;
 }
 /* --------------------------------------footer-section--------------------- */
 .footer-section,
