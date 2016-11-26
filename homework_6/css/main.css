@@ -25,6 +25,8 @@ body {
 }
 .slogan {
   position: absolute;
+  width: 829px;
+  height: 154px;
   left: 50%;
   top: 30%;
   -webkit-transform: translatex(-50%);
@@ -66,21 +68,19 @@ h1 {
   margin-top: 25px;
 }
 .main_nav  li {
+
   float: left;
 }
 .main_nav  a{
+  font-family: Droidsans;
   display: inline;;
   padding: 0 20px;
   line-height: 40px;
   color: #ffffff;
-  border: 1px solid transparent;
-  -webkit-border-radius: 100px;
-  border-radius: 100px;
   text-decoration: none;
+  font-size:22px;
 }
-.main_nav li a:hover {
-  border-color: #ffffff;
-}
+
 
 
  #scrolldown {
@@ -111,9 +111,14 @@ h1 {
   line-height: 33.29px;
   font-family: DroidSerif;
   }
- h2,h3, p {
+ #about-section h2, h3, p {
    color: #ffffff;
  }
+ #about-section h3 {
+   color: #ffffff;
+ }
+
+
  h2 {
    font-size: 45px;
    text-align: center;
@@ -239,10 +244,10 @@ h1 {
     margin-top: 120px;
     margin-right: 250px;
   }
-  #project-title h3, h2, p {
+  /*#project-title h3, h2, p {
     color:#000000;
     text-align: left;
-  }
+  }*/
   #project-title h2 {
     margin-top: 200px;
     text-align: center;
@@ -294,6 +299,7 @@ h1 {
     padding-top: 100px;
     margin-bottom: 50px;
     text-align: center;
+    color: #ffffff;
 }
 #team-section li {
   display: inline-block;
