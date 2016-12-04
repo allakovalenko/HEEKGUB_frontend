@@ -1,0 +1,332 @@
+@import "compass/reset";
+
+$color : #f6f9f9;
+$color_line:  #15a4fa;
+$color_letter: #ffffff;
+
+
+.container {
+margin: 0 auto;
+width: 1600px;
+text-align: center;
+font-family: Lato;
+
+}
+
+
+.wraper {
+	overflow: hidden;
+
+}
+
+ 	.logo { 
+		height: 100px;
+		position: relative;
+		background-color:  $color;
+		background-size: cover;
+		}
+		
+	.shape {
+		position: absolute;
+		top: 40px;
+		left: 300px;
+
+		}
+		.strik{
+			padding-right:800px;
+			font-size: 30px;
+			font-weight: 500;
+			font-family: Lato;
+			color:  #2d3950;
+			line-height: 20px;
+			text-align: center;
+			position: relative;
+			top: 50px;
+		}
+
+.head {
+	
+	height: 800px;
+	background: url(/home/kaa/GEEKHUB/homeworks/homework_7/images/image.png) 50% 0 no-repeat;
+	background-size: cover;
+	font-family: Lato;
+	color:  $color_letter;
+
+		h1 {
+						font-size: 120px;
+						font-weight: 700;
+						line-height: 47px;
+						top: 50px;
+						padding-top: 215px;
+
+		}
+
+	p {
+		width: 600px;
+		position: relative;	
+		top: 50px;
+		left: 500px;
+		border-top :1px $color_line solid;
+		padding-top :15px;
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 47px;
+	}
+
+.calltoaction {
+	position: relative;
+	top: 100px;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 47px;
+	border: 2px solid #15a4fa;
+	padding: 13px 28px;
+	border-radius: 2px;
+
+}
+}
+
+
+.simple {
+	font-family: Lato;
+	
+	.design{
+	height: 340px;
+	background-color:  $color;
+	}
+	h2 {
+		padding-top: 80px;
+		color: #2d3950;
+		font-size: 40px;
+		font-weight: 400;
+	}
+	p {
+		padding-top: 30px;
+		color:  #999999;
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 32px
+	}
+}
+
+
+.simple {
+	.feature{
+		height: 340px;
+}
+	 li{
+	display: inline-block;
+	width: 315px;
+	padding-top: 65px;
+	padding-left: 180px;
+	
+    
+
+}
+h3 {
+padding-top: 30px;
+color:  #2d3950;
+font-size: 22px;
+font-weight: 400;
+}
+p {
+color:  #999999;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+
+
+}
+}
+
+.portfolio {
+
+ 	.showcase{
+background-color: $color;
+height: 900px;
+
+
+
+	}
+	h2 {
+padding-top: 70px;
+color:  #2d3950;
+font-size: 41px;
+font-weight: 400;
+	}
+	p {
+padding-top: 30px;
+color:  #999999;
+font-size: 15px;
+font-weight: 400;
+line-height: 23px;
+margin-bottom: 50px;
+}
+}
+
+.bar {
+width: 1200px;
+margin-left: 200px;
+
+}
+.portfolio {
+	li{
+	 position: relative;
+       display: inline-block;
+      	margin-top: 20px;
+       margin-left: 10px;
+       margin-right: 10px;
+       width: 30%;
+
+
+	}
+
+	li:hover .hover{
+		display: block;
+	}
+	li i {
+		display: block;
+   		 width: 100%;
+    		height: auto;
+    	}
+	.hover {
+ 	 display: none;
+   	 position: absolute;
+   	 left: 0;
+   	 top: 0;
+   	 right: 0;
+   	 bottom: 0;
+  	 background: rgba(21, 164, 250, 0.9);
+   	  opacity: 0.9;
+   	  
+	}
+}
+
+
+.hover-wrap  i{
+	cursor: pointer;
+	color: rgb(45, 57, 80);
+	color: #ffffff;
+	margin-bottom: 100px;
+
+	
+}
+i:first-child{
+	position: relative;
+	margin-top: 100px;
+	right: 30px;
+	
+}
+i:last-child{
+	position: relative;
+	
+	}
+
+	a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+  }
+
+
+
+.forma {
+	height: 700px;
+	font: Lato;
+	background: url(/home/kaa/GEEKHUB/homeworks/homework_7/images/fon.png) 50% 0 no-repeat;
+	
+		h2 {
+			font-size: 40px;
+			color:  $color_letter;
+			padding-top: 71px;
+		}
+		p {
+			font-size: 15px;
+			font-style: Regular;
+			line-height: 20px;
+			color: #999999;
+			padding-top: 30px;
+			
+		}
+
+}
+
+.contact {
+
+.width {
+width: 550px;
+height: 60px;
+margin-bottom: 20px;
+padding-left: 10px;
+border-radius: 4px;
+background-color: transparent;
+border: 1px solid #999999; 
+}
+.message{
+width: 550px;
+height: 160px;
+padding-left: 10px;
+padding-top: 15px;
+border-radius: 4px;
+background-color: transparent;
+}
+
+}
+
+
+
+.forma {
+ .button li{
+       display: inline-block;
+       position: relative;
+ }
+ li:first-child {
+ 	right: 120px;
+ 	padding-top : 30px;
+	color: #ffffff;
+
+
+ }
+ li:last-child {
+  left: 120px;
+ }
+ .send {
+	padding: 10px 50px;
+	padding-bottom: 10px;
+	border-radius: 2px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #15a4fa;
+	font-size: 18px;
+	color: #ffffff;
+	background-color:  rgba(21, 164, 250, 0);
+
+ }
+}
+
+.copyritht {
+height: 90px;
+li {
+	
+       float: right;
+       padding-top: 30px;
+       border-radius: 2px;
+       padding-right: 15px;
+       right: 230px;
+       
+}
+p{
+
+float: left;
+padding-top: 40px;
+color:  #999999;
+font-size: 15px;
+font-weight: 400;
+padding-left: 220px;
+}
+}
+
+
+  

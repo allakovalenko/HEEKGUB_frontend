@@ -1,0 +1,375 @@
+/* line 5, ../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 8, ../sass/style.scss */
+.container {
+  margin: 0 auto;
+  width: 1600px;
+  text-align: center;
+  font-family: Lato;
+}
+
+/* line 17, ../sass/style.scss */
+.wraper {
+  overflow: hidden;
+}
+
+/* line 22, ../sass/style.scss */
+.logo {
+  height: 100px;
+  position: relative;
+  background-color: #f6f9f9;
+  background-size: cover;
+}
+
+/* line 29, ../sass/style.scss */
+.shape {
+  position: absolute;
+  top: 40px;
+  left: 300px;
+}
+
+/* line 35, ../sass/style.scss */
+.strik {
+  padding-right: 800px;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: Lato;
+  color: #2d3950;
+  line-height: 20px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+
+/* line 47, ../sass/style.scss */
+.head {
+  height: 800px;
+  background: url(/home/kaa/GEEKHUB/homeworks/homework_7/images/image.png) 50% 0 no-repeat;
+  background-size: cover;
+  font-family: Lato;
+  color: #ffffff;
+}
+/* line 55, ../sass/style.scss */
+.head h1 {
+  font-size: 120px;
+  font-weight: 700;
+  line-height: 47px;
+  top: 50px;
+  padding-top: 215px;
+}
+/* line 64, ../sass/style.scss */
+.head p {
+  width: 600px;
+  position: relative;
+  top: 50px;
+  left: 500px;
+  border-top: 1px #15a4fa solid;
+  padding-top: 15px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 47px;
+}
+/* line 76, ../sass/style.scss */
+.head .calltoaction {
+  position: relative;
+  top: 100px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 47px;
+  border: 2px solid #15a4fa;
+  padding: 13px 28px;
+  border-radius: 2px;
+}
+
+/* line 92, ../sass/style.scss */
+.simple {
+  font-family: Lato;
+}
+/* line 95, ../sass/style.scss */
+.simple .design {
+  height: 340px;
+  background-color: #f6f9f9;
+}
+/* line 99, ../sass/style.scss */
+.simple h2 {
+  padding-top: 80px;
+  color: #2d3950;
+  font-size: 40px;
+  font-weight: 400;
+}
+/* line 105, ../sass/style.scss */
+.simple p {
+  padding-top: 30px;
+  color: #999999;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+/* line 116, ../sass/style.scss */
+.simple .feature {
+  height: 340px;
+}
+/* line 119, ../sass/style.scss */
+.simple li {
+  display: inline-block;
+  width: 315px;
+  padding-top: 65px;
+  padding-left: 180px;
+}
+/* line 128, ../sass/style.scss */
+.simple h3 {
+  padding-top: 30px;
+  color: #2d3950;
+  font-size: 22px;
+  font-weight: 400;
+}
+/* line 134, ../sass/style.scss */
+.simple p {
+  color: #999999;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+/* line 146, ../sass/style.scss */
+.portfolio .showcase {
+  background-color: #f6f9f9;
+  height: 900px;
+}
+/* line 153, ../sass/style.scss */
+.portfolio h2 {
+  padding-top: 70px;
+  color: #2d3950;
+  font-size: 41px;
+  font-weight: 400;
+}
+/* line 159, ../sass/style.scss */
+.portfolio p {
+  padding-top: 30px;
+  color: #999999;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  margin-bottom: 50px;
+}
+
+/* line 169, ../sass/style.scss */
+.bar {
+  width: 1200px;
+  margin-left: 200px;
+}
+
+/* line 175, ../sass/style.scss */
+.portfolio li {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 30%;
+}
+/* line 186, ../sass/style.scss */
+.portfolio li:hover .hover {
+  display: block;
+}
+/* line 189, ../sass/style.scss */
+.portfolio li i {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/* line 194, ../sass/style.scss */
+.portfolio .hover {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(21, 164, 250, 0.9);
+  opacity: 0.9;
+}
+
+/* line 208, ../sass/style.scss */
+.hover-wrap i {
+  cursor: pointer;
+  color: #2d3950;
+  color: #ffffff;
+  margin-bottom: 100px;
+}
+
+/* line 216, ../sass/style.scss */
+i:first-child {
+  position: relative;
+  margin-top: 100px;
+  right: 30px;
+}
+
+/* line 222, ../sass/style.scss */
+i:last-child {
+  position: relative;
+}
+
+/* line 227, ../sass/style.scss */
+a:-webkit-any-link {
+  color: -webkit-link;
+  text-decoration: underline;
+  cursor: auto;
+}
+
+/* line 235, ../sass/style.scss */
+.forma {
+  height: 700px;
+  font: Lato;
+  background: url(/home/kaa/GEEKHUB/homeworks/homework_7/images/fon.png) 50% 0 no-repeat;
+}
+/* line 240, ../sass/style.scss */
+.forma h2 {
+  font-size: 40px;
+  color: #ffffff;
+  padding-top: 71px;
+}
+/* line 245, ../sass/style.scss */
+.forma p {
+  font-size: 15px;
+  font-style: Regular;
+  line-height: 20px;
+  color: #999999;
+  padding-top: 30px;
+}
+
+/* line 258, ../sass/style.scss */
+.contact .width {
+  width: 550px;
+  height: 60px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border-radius: 4px;
+  background-color: transparent;
+  border: 1px solid #999999;
+}
+/* line 267, ../sass/style.scss */
+.contact .message {
+  width: 550px;
+  height: 160px;
+  padding-left: 10px;
+  padding-top: 15px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+/* line 281, ../sass/style.scss */
+.forma .button li {
+  display: inline-block;
+  position: relative;
+}
+/* line 285, ../sass/style.scss */
+.forma li:first-child {
+  right: 120px;
+  padding-top: 30px;
+  color: #ffffff;
+}
+/* line 292, ../sass/style.scss */
+.forma li:last-child {
+  left: 120px;
+}
+/* line 295, ../sass/style.scss */
+.forma .send {
+  padding: 10px 50px;
+  padding-bottom: 10px;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #15a4fa;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: rgba(21, 164, 250, 0);
+}
+
+/* line 309, ../sass/style.scss */
+.copyritht {
+  height: 90px;
+}
+/* line 311, ../sass/style.scss */
+.copyritht li {
+  float: right;
+  padding-top: 30px;
+  border-radius: 2px;
+  padding-right: 15px;
+  right: 230px;
+}
+/* line 320, ../sass/style.scss */
+.copyritht p {
+  float: left;
+  padding-top: 40px;
+  color: #999999;
+  font-size: 15px;
+  font-weight: 400;
+  padding-left: 220px;
+}
