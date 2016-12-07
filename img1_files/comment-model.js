@@ -1,0 +1,1 @@
+define(["backbone","plugin-dependencies"],function(e,n){var t=e.Model.extend({initialize:function(){this.set({type:"comment"})},url:function(){var e=this.get("id");return n.config("api")+this.get("_target")+"/comments"+(e?"/"+e:"")}});return t});

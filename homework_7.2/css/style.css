@@ -66,3 +66,289 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
+
+/* line 8, ../sass/style.scss */
+.container {
+  overflow: hidden;
+  text-align: center;
+  margin: auto;
+  font-family: Lato;
+  width: 1690px;
+}
+
+/* line 18, ../sass/style.scss */
+.wrapper {
+  background: -webkit-linear-gradient(39deg, #3695ff 19%, #3564fc 81%);
+  background: -moz-linear-gradient(39deg, #3695ff 19%, #3564fc 81%);
+  background: -o-linear-gradient(39deg, #3695ff 19%, #3564fc 81%);
+  background: -ms-linear-gradient(39deg, #3695ff 19%, #3564fc 81%);
+  background: linear-gradient(51deg, #3695ff 19%, #3564fc 81%);
+  width: 1690px;
+  height: 800px;
+}
+/* line 26, ../sass/style.scss */
+.wrapper .row {
+  position: fixed;
+  z-index: 101;
+  margin-top: 0;
+  height: 72px;
+  width: 1690px;
+  background-color: #194277;
+}
+/* line 34, ../sass/style.scss */
+.wrapper .row p {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 36px;
+  float: left;
+  margin-left: 500px;
+  line-height: 55px;
+}
+/* line 43, ../sass/style.scss */
+.wrapper .row a {
+  width: 110px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 600px;
+  color: #194277;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 30px;
+  text-decoration: none;
+  border-radius: 50px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+}
+
+/* line 58, ../sass/style.scss */
+.circle {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #ffffff;
+  background-color: #ffffff;
+  width: 141px;
+  height: 141px;
+  position: relative;
+  top: 150px;
+  left: 770px;
+  -webkit-box-shadow: 0 0 30px #ffffff;
+  -moz-box-shadow: 0 0 30px #ffffff;
+  box-shadow: 0 0 30px #ffffff;
+}
+
+/* line 75, ../sass/style.scss */
+.welcome i {
+  position: relative;
+  top: 100px;
+  left: 350px;
+  color: #ffffff;
+}
+/* line 81, ../sass/style.scss */
+.welcome h1 {
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 60px;
+  color: #ffffff;
+  padding-top: 250px;
+}
+/* line 88, ../sass/style.scss */
+.welcome p {
+  color: #ffffff;
+  font-style: 16px;
+  font-style: 200;
+  line-height: 35px;
+  width: 765px;
+  height: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-top: 10px;
+  padding-left: 27%;
+  text-transform: uppercase;
+}
+/* line 101, ../sass/style.scss */
+.welcome .hireme {
+  text-decoration: none;
+  color: #3695ff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-top: 100px;
+  width: 200px;
+  padding: 10px;
+  border-radius: 50px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+}
+
+/* line 116, ../sass/style.scss */
+.aboutme {
+  width: 1690px;
+  height: 300px;
+}
+/* line 120, ../sass/style.scss */
+.aboutme h2 {
+  color: #3677fd;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-top: 100px;
+}
+/* line 127, ../sass/style.scss */
+.aboutme p {
+  width: 1070px;
+  color: #5a5a5a;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 35px;
+  padding-left: 20%;
+  padding-top: 70px;
+}
+
+/* line 139, ../sass/style.scss */
+.expert {
+  width: 1690px;
+  height: 1160px;
+  margin-left: 40px;
+}
+/* line 143, ../sass/style.scss */
+.expert h2 {
+  color: #3677fd;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-top: 50px;
+}
+
+/* line 151, ../sass/style.scss */
+.expertin {
+  width: 1090px;
+  margin-left: 260px;
+}
+
+/* line 156, ../sass/style.scss */
+.expertin li {
+  padding-top: 150px;
+  display: inline-block;
+  width: 30%;
+  margin-right: 30px;
+}
+/* line 162, ../sass/style.scss */
+.expertin img {
+  border: 1px solid #d2d2d2;
+  border-radius: 100%;
+  padding: 35px;
+}
+/* line 167, ../sass/style.scss */
+.expertin h3 {
+  padding-top: 20px;
+  color: #3677fd;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+}
+/* line 174, ../sass/style.scss */
+.expertin p {
+  height: 85px;
+  width: 300px;
+  padding-left: 20px;
+  overflow: hidden;
+  padding-top: 20px;
+  color: #5a5a5a;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+/* line 187, ../sass/style.scss */
+.works {
+  width: 1690px;
+  height: 1000px;
+  margin-left: 300px;
+}
+
+/* line 193, ../sass/style.scss */
+.latestworks {
+  height: 1000px;
+  width: 1090px;
+}
+/* line 197, ../sass/style.scss */
+.latestworks h2 {
+  color: #3677fd;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 24px;
+}
+/* line 203, ../sass/style.scss */
+.latestworks li {
+  padding-top: 150px;
+  display: inline-block;
+  width: 30%;
+}
+
+/* line 210, ../sass/style.scss */
+.clients {
+  width: 1090px;
+  height: 280px;
+  margin-left: 300px;
+}
+
+/* line 216, ../sass/style.scss */
+.logos h2 {
+  color: #3677fd;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 24px;
+}
+/* line 222, ../sass/style.scss */
+.logos li {
+  padding-top: 100px;
+  display: inline-block;
+  width: 23%;
+}
+
+/* line 228, ../sass/style.scss */
+.ready {
+  width: 1690px;
+  height: 250px;
+  background: -webkit-linear-gradient(39deg, #3695ff 41%, #3564fc 59%);
+  background: -moz-linear-gradient(39deg, #3695ff 41%, #3564fc 59%);
+  background: -o-linear-gradient(39deg, #3695ff 41%, #3564fc 59%);
+  background: -ms-linear-gradient(39deg, #3695ff 41%, #3564fc 59%);
+  background: linear-gradient(51deg, #3695ff 41%, #3564fc 59%);
+}
+/* line 237, ../sass/style.scss */
+.ready p {
+  color: #ffffff;
+  font-size: 49.99px;
+  font-weight: 300;
+  line-height: 39.421px;
+  padding-top: 100px;
+  float: left;
+  width: 900px;
+  margin-left: 300px;
+}
+/* line 250, ../sass/style.scss */
+.ready .bold {
+  color: #ffffff;
+  font-size: 49.99px;
+  font-weight: 700;
+  line-height: 39.421px;
+}
+/* line 256, ../sass/style.scss */
+.ready .hire_me {
+  float: right;
+  margin-right: 190px;
+  width: 200px;
+  padding: 10px;
+  color: #3695ff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-top: 90px;
+  width: 200px;
+  border-radius: 50px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+}

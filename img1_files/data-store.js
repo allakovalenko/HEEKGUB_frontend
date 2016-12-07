@@ -1,0 +1,1 @@
+define(["files/dataStoreSharedCloud"],function(e){return e});

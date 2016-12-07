@@ -4,3 +4,272 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+
+.container {
+
+overflow: hidden;
+text-align: center;
+margin:auto;
+font-family: Lato;
+width: 1690px;
+  
+}
+
+.wrapper{
+background: -webkit-linear-gradient(39deg, #3695ff 19%, #3564fc 81%);
+background: -moz-linear-gradient(39deg, #3695ff 19%, #3564fc 81%);
+background: -o-linear-gradient(39deg, #3695ff 19%, #3564fc 81%);
+background: -ms-linear-gradient(39deg, #3695ff 19%, #3564fc 81%);
+background: linear-gradient(51deg, #3695ff 19%, #3564fc 81%);
+width: 1690px;
+height: 800px;
+	.row {
+	position: fixed;
+	z-index: 101;
+	margin-top: 0;
+	height: 72px;
+	width: 1690px;
+	background-color: #194277;
+	}
+	.row p {
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 36px;
+	float:left;
+	margin-left: 500px;
+	line-height: 55px;
+	}
+	.row a {
+	width: 110px;
+	float:right;
+	margin-top: 10px;
+	margin-right: 600px;
+	color: #194277;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 30px;
+	text-decoration: none;
+	border-radius: 50px;
+	border: 1px solid #ffffff;
+	background-color: #ffffff;
+	}
+}
+.circle {
+border-radius: 50%;
+border-style: solid;
+border-width: 3px;
+border-color:  #ffffff;
+background-color:  #ffffff;
+width: 141px;
+height: 141px;
+position: relative;
+top: 150px;
+left: 770px;
+-webkit-box-shadow: 0 0 30px #ffffff;
+-moz-box-shadow: 0 0 30px #ffffff;
+ box-shadow: 0 0 30px #ffffff;
+}
+
+.welcome{
+i{
+position: relative;
+top: 100px;
+left: 350px;
+color: #ffffff;
+}
+h1 {
+font-size: 50px;
+font-weight: 900;
+line-height: 60px;
+color: #ffffff;
+padding-top: 250px;
+}
+p{
+color: #ffffff;
+font-style: 16px;
+font-style: 200;
+line-height: 35px;
+width: 765px;
+height: 60px;
+overflow: hidden;
+text-overflow: ellipsis;
+padding-top: 10px;
+padding-left: 27%;
+text-transform: uppercase;
+}
+.hireme{
+text-decoration: none;
+color: #3695ff;
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+margin-top: 100px;
+width: 200px;
+padding: 10px;
+border-radius: 50px;
+border: 1px solid #ffffff;
+background-color: #ffffff;
+}
+}
+
+.aboutme{
+	width: 1690px;
+	height: 300px;
+	
+	h2{
+color:  #3677fd;
+font-size: 50px;
+font-weight: 300;
+line-height: 24px;
+margin-top: 100px;
+	}
+p {
+width: 1070px;
+color:  #5a5a5a;
+font-size: 16px;
+font-weight: 400;
+line-height: 35px;
+padding-left: 20%;
+padding-top: 70px;
+}
+}
+
+
+.expert {
+	width: 1690px;
+	height: 1160px;
+	margin-left: 40px;
+h2 {
+color:  #3677fd;
+font-size: 50px;
+font-weight: 300;
+line-height: 24px;
+margin-top: 50px;
+}
+}
+.expertin{
+	width: 1090px;
+	margin-left: 260px;}
+
+.expertin{
+li{
+	padding-top: 150px;
+	display: inline-block;
+	width: 30%;
+	margin-right: 30px;
+	}
+img{
+	border: 1px solid #d2d2d2;
+	border-radius: 100%;
+	padding: 35px;
+}
+h3 {
+padding-top: 20px;
+color:  #3677fd;
+font-size: 24px;
+font-weight: 700;
+line-height: 24px;
+}
+p {
+height: 85px;
+width: 300px;
+padding-left: 20px;
+overflow: hidden;
+padding-top: 20px;
+color:  #5a5a5a;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+}
+}
+
+.works {
+width: 1690px;
+height: 1000px;
+margin-left: 300px;
+}
+
+.latestworks{
+height: 1000px;
+width: 1090px;
+
+h2{
+color:  #3677fd;
+font-size: 50px;
+font-weight: 300;
+line-height: 24px;
+}
+li{
+	padding-top: 150px;
+	display: inline-block;
+	width: 30%;
+
+	}
+}
+.clients{
+	width: 1090px;
+	height: 280px;
+	margin-left: 300px;
+}
+.logos{
+h2{
+color:  #3677fd;
+font-size: 50px;
+font-weight: 300;
+line-height: 24px;
+}
+li{
+	padding-top: 100px;
+	display: inline-block;
+	width: 23%;
+	}
+}
+.ready{
+width: 1690px;
+height: 250px;
+background: -webkit-linear-gradient(39deg, #3695ff 41%, #3564fc 59%);
+background: -moz-linear-gradient(39deg, #3695ff 41%, #3564fc 59%);
+background: -o-linear-gradient(39deg, #3695ff 41%, #3564fc 59%);
+background: -ms-linear-gradient(39deg, #3695ff 41%, #3564fc 59%);
+background: linear-gradient(51deg, #3695ff 41%, #3564fc 59%);
+
+p {
+color: #ffffff;
+font-size: 49.99px;
+font-weight: 300;
+line-height: 39.421px;
+padding-top: 100px;
+float: left;
+width: 900px;
+margin-left: 300px;
+
+
+}
+
+.bold{
+color:  #ffffff;
+font-size: 49.99px;
+font-weight: 700;
+line-height: 39.421px;
+}
+.hire_me{
+float: right;
+margin-right: 190px;
+width: 200px;
+padding: 10px;
+color: #3695ff;
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+margin-top: 90px;
+width: 200px;
+border-radius: 50px;
+border: 1px solid #ffffff;
+background-color: #ffffff;
+}
+}
+
+
+
+
