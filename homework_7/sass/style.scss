@@ -6,17 +6,17 @@ $color_letter: #ffffff;
 
 
 .container {
-margin: 0 auto;
-width: 1600px;
+
 text-align: center;
 font-family: Lato;
-
+overflow: hidden;
 }
 
 
 .wraper {
-	overflow: hidden;
-
+overflow: hidden;
+margin:auto;
+width: 100%;
 }
 
  	.logo { 
@@ -244,7 +244,7 @@ i:last-child{
 		}
 		p {
 			font-size: 15px;
-			font-style: Regular;
+			
 			line-height: 20px;
 			color: #999999;
 			padding-top: 30px;

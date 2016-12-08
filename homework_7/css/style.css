@@ -65,15 +65,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 8, ../sass/style.scss */
 .container {
-  margin: 0 auto;
-  width: 1600px;
   text-align: center;
   font-family: Lato;
+  overflow: hidden;
 }
 
-/* line 17, ../sass/style.scss */
+/* line 16, ../sass/style.scss */
 .wraper {
   overflow: hidden;
+  margin: auto;
+  width: 100%;
 }
 
 /* line 22, ../sass/style.scss */
@@ -298,7 +299,6 @@ a:-webkit-any-link {
 /* line 245, ../sass/style.scss */
 .forma p {
   font-size: 15px;
-  font-style: Regular;
   line-height: 20px;
   color: #999999;
   padding-top: 30px;

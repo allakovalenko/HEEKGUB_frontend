@@ -6,13 +6,11 @@
 @import "compass/reset";
 
 .container {
-
 overflow: hidden;
 text-align: center;
 margin:auto;
 font-family: Lato;
-width: 1690px;
-  
+width: 100%;
 }
 
 .wrapper{
@@ -23,16 +21,16 @@ background: -ms-linear-gradient(39deg, #3695ff 19%, #3564fc 81%);
 background: linear-gradient(51deg, #3695ff 19%, #3564fc 81%);
 width: 1690px;
 height: 800px;
+overflow: hidden;
 	.row {
 	position: fixed;
-	z-index: 101;
 	margin-top: 0;
 	height: 72px;
 	width: 1690px;
 	background-color: #194277;
 	}
 	.row p {
-	color:  #ffffff;
+	color: #ffffff;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 36px;
@@ -51,7 +49,7 @@ height: 800px;
 	line-height: 30px;
 	text-decoration: none;
 	border-radius: 50px;
-	border: 1px solid #ffffff;
+	border: none;
 	background-color: #ffffff;
 	}
 }
@@ -59,7 +57,7 @@ height: 800px;
 border-radius: 50%;
 border-style: solid;
 border-width: 3px;
-border-color:  #ffffff;
+border-color: #ffffff;
 background-color:  #ffffff;
 width: 141px;
 height: 141px;
@@ -87,8 +85,7 @@ padding-top: 250px;
 }
 p{
 color: #ffffff;
-font-style: 16px;
-font-style: 200;
+font-size: 16px;
 line-height: 35px;
 width: 765px;
 height: 60px;
@@ -108,7 +105,7 @@ margin-top: 100px;
 width: 200px;
 padding: 10px;
 border-radius: 50px;
-border: 1px solid #ffffff;
+border: none;
 background-color: #ffffff;
 }
 }
@@ -116,6 +113,7 @@ background-color: #ffffff;
 .aboutme{
 	width: 1690px;
 	height: 300px;
+	  
 	
 	h2{
 color:  #3677fd;
@@ -140,6 +138,7 @@ padding-top: 70px;
 	width: 1690px;
 	height: 1160px;
 	margin-left: 40px;
+	    
 h2 {
 color:  #3677fd;
 font-size: 50px;
@@ -148,11 +147,11 @@ line-height: 24px;
 margin-top: 50px;
 }
 }
-.expertin{
+.product{
 	width: 1090px;
 	margin-left: 260px;}
 
-.expertin{
+.product{
 li{
 	padding-top: 150px;
 	display: inline-block;
@@ -188,6 +187,7 @@ line-height: 30px;
 width: 1690px;
 height: 1000px;
 margin-left: 300px;
+ 
 }
 
 .latestworks{
@@ -211,6 +211,7 @@ li{
 	width: 1090px;
 	height: 280px;
 	margin-left: 300px;
+	  
 }
 .logos{
 h2{
@@ -233,6 +234,7 @@ background: -moz-linear-gradient(39deg, #3695ff 41%, #3564fc 59%);
 background: -o-linear-gradient(39deg, #3695ff 41%, #3564fc 59%);
 background: -ms-linear-gradient(39deg, #3695ff 41%, #3564fc 59%);
 background: linear-gradient(51deg, #3695ff 41%, #3564fc 59%);
+
 
 p {
 color: #ffffff;
@@ -265,7 +267,7 @@ line-height: 30px;
 margin-top: 90px;
 width: 200px;
 border-radius: 50px;
-border: 1px solid #ffffff;
+border: none;
 background-color: #ffffff;
 }
 }
