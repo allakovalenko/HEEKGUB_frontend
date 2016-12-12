@@ -157,20 +157,24 @@ section#main .scroll-down {
 /* line 87, ../sass/style.scss */
 section#services {
   height: 500px;
+  width: 100%;
+  background-color: #ffffff;
+  position: relative;
+  background-size: cover;
 }
 
-/* line 92, ../sass/style.scss */
+/* line 96, ../sass/style.scss */
 section#services .container {
   overflow: hidden;
   width: 100%;
   height: 100%;
 }
-/* line 97, ../sass/style.scss */
+/* line 101, ../sass/style.scss */
 section#services .design {
   margin-left: 25%;
   margin-top: 130px;
 }
-/* line 101, ../sass/style.scss */
+/* line 105, ../sass/style.scss */
 section#services .design p {
   overflow: hidden;
   height: 60px;
@@ -178,39 +182,39 @@ section#services .design p {
   font-size: 16px;
   font-weight: 100;
 }
-/* line 109, ../sass/style.scss */
+/* line 113, ../sass/style.scss */
 section#services .design img {
   border-radius: 50%;
   padding: 40px;
   border: 1px solid #c6c2c2;
 }
 
-/* line 116, ../sass/style.scss */
+/* line 120, ../sass/style.scss */
 .design h2 {
   color: #3b434c;
   font-size: 16px;
   font-weight: 600;
 }
 
-/* line 122, ../sass/style.scss */
+/* line 126, ../sass/style.scss */
 section#subscription {
   height: 250px;
   background: url(../images/fonsubs.png) center no-repeat;
   position: relative;
   background-size: cover;
 }
-/* line 127, ../sass/style.scss */
+/* line 131, ../sass/style.scss */
 section#subscription .container {
   overflow: hidden;
   width: 100%;
   height: 100%;
 }
 
-/* line 133, ../sass/style.scss */
+/* line 137, ../sass/style.scss */
 .subscribe {
   padding-top: 5%;
 }
-/* line 135, ../sass/style.scss */
+/* line 139, ../sass/style.scss */
 .subscribe .email {
   width: 350px;
   height: 50px;
@@ -222,7 +226,7 @@ section#subscription .container {
   font-weight: 300;
   line-height: 40px;
 }
-/* line 146, ../sass/style.scss */
+/* line 150, ../sass/style.scss */
 .subscribe .button {
   width: 200px;
   height: 50px;
@@ -233,64 +237,68 @@ section#subscription .container {
   color: #ffffff;
   line-height: 40px;
 }
-/* line 157, ../sass/style.scss */
+/* line 161, ../sass/style.scss */
 .subscribe ::-webkit-input-placeholder {
   padding-left: 10px;
   font-size: 14px;
 }
 
-/* line 163, ../sass/style.scss */
+/* line 167, ../sass/style.scss */
 section#ourworks {
   height: 1300px;
+  width: 100%;
+  background-color: #ffffff;
+  position: relative;
+  background-size: cover;
 }
-/* line 165, ../sass/style.scss */
+/* line 174, ../sass/style.scss */
 section#ourworks .container {
   overflow: hidden;
   width: 100%;
   height: 100%;
 }
-/* line 170, ../sass/style.scss */
+/* line 179, ../sass/style.scss */
 section#ourworks h2 {
   color: #3b434c;
   font-size: 35px;
   font-weight: 400;
   line-height: 40px;
-  margin-top: 5%;
+  margin-top: 30px;
 }
-/* line 179, ../sass/style.scss */
+/* line 188, ../sass/style.scss */
 section#ourworks .color {
   color: #f7600e;
   font-size: 35px;
   font-weight: 400;
   line-height: 40px;
 }
-/* line 186, ../sass/style.scss */
+/* line 195, ../sass/style.scss */
 section#ourworks p {
   margin-top: 2%;
   color: #3b434c;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
-  margin-bottom: 5%;
+  margin-bottom: 30px;
 }
 
-/* line 195, ../sass/style.scss */
+/* line 204, ../sass/style.scss */
 #ourworks.row img:nth-child(2) {
   margin-right: 10px;
   margin-left: 10px;
 }
 
-/* line 201, ../sass/style.scss */
+/* line 210, ../sass/style.scss */
 #ourworks li {
   position: relative;
   display: inline-block;
   margin-right: 10px;
 }
-/* line 208, ../sass/style.scss */
+/* line 217, ../sass/style.scss */
 #ourworks li:hover .hover-block {
   display: block;
 }
-/* line 211, ../sass/style.scss */
+/* line 220, ../sass/style.scss */
 #ourworks .hover-block {
   display: none;
   position: absolute;
@@ -301,7 +309,7 @@ section#ourworks p {
   background: #f7600e;
   opacity: 0.9;
 }
-/* line 222, ../sass/style.scss */
+/* line 231, ../sass/style.scss */
 #ourworks .btn {
   border: 1px solid #b2aeae;
   border-radius: 5px;
@@ -311,26 +319,26 @@ section#ourworks p {
   text-decoration: none;
   margin-top: 100px;
 }
-/* line 231, ../sass/style.scss */
+/* line 240, ../sass/style.scss */
 #ourworks .btn:hover {
   background: #f7600e;
   color: #ffffff;
 }
 
-/* line 238, ../sass/style.scss */
+/* line 247, ../sass/style.scss */
 #ourworks .table-cell-wrap h2 {
   padding-top: 90px;
   color: #ffffff;
   font-size: 25px;
 }
-/* line 244, ../sass/style.scss */
+/* line 253, ../sass/style.scss */
 #ourworks .table-cell-wrap p {
   color: #ffffff;
   font-size: 14px;
   padding: 20px;
   vertical-align: middle;
 }
-/* line 251, ../sass/style.scss */
+/* line 260, ../sass/style.scss */
 #ourworks .table-cell-wrap a {
   border-radius: 5px;
   padding: 10px 15px;
@@ -341,7 +349,7 @@ section#ourworks p {
   margin-bottom: 50px;
 }
 
-/* line 264, ../sass/style.scss */
+/* line 273, ../sass/style.scss */
 #clientsay {
   height: 500px;
   width: 100%;
@@ -349,14 +357,14 @@ section#ourworks p {
   position: relative;
   background-size: cover;
 }
-/* line 271, ../sass/style.scss */
+/* line 280, ../sass/style.scss */
 #clientsay .container {
   overflow: hidden;
   width: 100%;
   height: 100%;
 }
 
-/* line 281, ../sass/style.scss */
+/* line 290, ../sass/style.scss */
 .item img {
   position: relative;
   margin-top: 100px;
@@ -364,62 +372,65 @@ section#ourworks p {
   display: block;
   transition: 0.3s;
 }
-/* line 288, ../sass/style.scss */
+/* line 297, ../sass/style.scss */
 .item .col-md-2 img:hover {
   transform: scaleY(1.15);
   border-radius: 10px 10px 0 0;
   border-bottom: 7px solid #f7600e;
   transition: 0.3s all ease-out;
 }
-/* line 294, ../sass/style.scss */
+/* line 303, ../sass/style.scss */
 .item p {
   position: relative;
   top: 200px;
 }
-/* line 298, ../sass/style.scss */
+/* line 307, ../sass/style.scss */
 .item .response {
   font-size: 25px;
   font-style: italic;
 }
-/* line 302, ../sass/style.scss */
+/* line 311, ../sass/style.scss */
 .item .client {
   font-size: 18px;
 }
 
-/* line 308, ../sass/style.scss */
+/* line 317, ../sass/style.scss */
 #clientsay .left {
   position: relative;
   right: 600px;
 }
-/* line 313, ../sass/style.scss */
+/* line 322, ../sass/style.scss */
 #clientsay .right {
   position: relative;
   left: 600px;
 }
-/* line 317, ../sass/style.scss */
+/* line 326, ../sass/style.scss */
 #clientsay .carousel-indicators {
   position: relative;
   top: 450px;
 }
 
-/* line 325, ../sass/style.scss */
+/* line 334, ../sass/style.scss */
 #ourteam {
   width: 100%;
   height: 1000px;
+  background-color: #ffffff;
+  position: relative;
+  background-size: cover;
 }
-/* line 328, ../sass/style.scss */
+/* line 340, ../sass/style.scss */
 #ourteam .container {
   overflow: hidden;
   width: 100%;
   height: 100%;
 }
-/* line 333, ../sass/style.scss */
+/* line 345, ../sass/style.scss */
 #ourteam h2 {
   color: #3b434c;
   font-size: 35px;
   margin-top: 100px;
 }
-/* line 338, ../sass/style.scss */
+/* line 350, ../sass/style.scss */
 #ourteam p {
   color: #3b434c;
   font-size: 16px;
@@ -427,13 +438,13 @@ section#ourworks p {
   margin-top: 30px;
 }
 
-/* line 346, ../sass/style.scss */
+/* line 358, ../sass/style.scss */
 #ourteam .orange {
   color: #f7600e;
   font-size: 35px;
 }
 
-/* line 353, ../sass/style.scss */
+/* line 365, ../sass/style.scss */
 #ourteam .team li {
   display: inline-block;
   width: 260px;
@@ -441,13 +452,13 @@ section#ourworks p {
   height: 460px;
 }
 
-/* line 364, ../sass/style.scss */
+/* line 376, ../sass/style.scss */
 #ourteam .team h4 {
   color: #f7600e;
   font-size: 25px;
 }
 
-/* line 368, ../sass/style.scss */
+/* line 380, ../sass/style.scss */
 #ourteam .team p {
   color: #3b434c;
   font-size: 14px;
@@ -456,7 +467,7 @@ section#ourworks p {
   line-height: 26px;
 }
 
-/* line 397, ../sass/style.scss */
+/* line 389, ../sass/style.scss */
 #hello {
   height: 800px;
   width: 100%;
@@ -464,31 +475,31 @@ section#ourworks p {
   position: relative;
   background-size: cover;
 }
-/* line 403, ../sass/style.scss */
+/* line 395, ../sass/style.scss */
 #hello .container {
   overflow: hidden;
   width: 100%;
   height: 100%;
 }
-/* line 408, ../sass/style.scss */
+/* line 400, ../sass/style.scss */
 #hello h2 {
   color: #ffffff;
   margin-top: 100px;
   font-size: 35px;
 }
-/* line 413, ../sass/style.scss */
+/* line 405, ../sass/style.scss */
 #hello .orange {
   color: #f7600e;
 }
 
-/* line 419, ../sass/style.scss */
+/* line 411, ../sass/style.scss */
 #hello p {
   color: #ffffff;
   font-size: 16px;
   font-weight: 400;
   margin-top: 30px;
 }
-/* line 425, ../sass/style.scss */
+/* line 417, ../sass/style.scss */
 #hello .left {
   margin-top: 100px;
   width: 400px;
@@ -496,7 +507,7 @@ section#ourworks p {
   border-radius: 10px;
   border: 1px solid #b2aeae;
 }
-/* line 432, ../sass/style.scss */
+/* line 424, ../sass/style.scss */
 #hello .right {
   margin-top: 100px;
   width: 400px;
@@ -506,7 +517,7 @@ section#ourworks p {
   margin-left: 10px;
 }
 
-/* line 443, ../sass/style.scss */
+/* line 435, ../sass/style.scss */
 #hello .textarea {
   width: 810px;
   height: 200px;
@@ -514,14 +525,14 @@ section#ourworks p {
   border: 1px solid #b2aeae;
   margin-left: 10px;
 }
-/* line 451, ../sass/style.scss */
+/* line 443, ../sass/style.scss */
 #hello ::-webkit-input-placeholder {
   color: #3b434c;
   font-size: 16px;
   font-weight: 400;
   padding-left: 10px;
 }
-/* line 457, ../sass/style.scss */
+/* line 449, ../sass/style.scss */
 #hello .button {
   position: relative;
   top: 10px;
@@ -535,17 +546,17 @@ section#ourworks p {
   font-size: 16px;
 }
 
-/* line 472, ../sass/style.scss */
+/* line 464, ../sass/style.scss */
 #hello .icons {
   position: absolute;
   right: 510px;
 }
-/* line 476, ../sass/style.scss */
+/* line 468, ../sass/style.scss */
 #hello li {
   display: inline-block;
   overflow: hidden;
 }
-/* line 480, ../sass/style.scss */
+/* line 472, ../sass/style.scss */
 #hello li a {
   display: block;
   width: 43px;
@@ -553,34 +564,34 @@ section#ourworks p {
   top: 10px;
 }
 
-/* line 489, ../sass/style.scss */
+/* line 481, ../sass/style.scss */
 #hello .facebook {
   background: url(../images/facebook.png) no-repeat;
   background-size: 100%;
 }
-/* line 493, ../sass/style.scss */
+/* line 485, ../sass/style.scss */
 #hello .twitter {
   background: url(../images/twitter.png) no-repeat;
   background-size: 100%;
 }
-/* line 497, ../sass/style.scss */
+/* line 489, ../sass/style.scss */
 #hello .google {
   background: url(../images/google.png) no-repeat;
   background-size: 100%;
 }
 
-/* line 504, ../sass/style.scss */
+/* line 496, ../sass/style.scss */
 #hello .ball {
   background: url(../images/ball.png) no-repeat;
   background-size: 100%;
 }
-/* line 508, ../sass/style.scss */
+/* line 500, ../sass/style.scss */
 #hello .be {
   background: url(../images/be.png) no-repeat;
   background-size: 100%;
 }
 
-/* line 514, ../sass/style.scss */
+/* line 506, ../sass/style.scss */
 #footer {
   height: 100px;
   width: 100%;
@@ -588,13 +599,13 @@ section#ourworks p {
   position: relative;
   background-size: cover;
 }
-/* line 521, ../sass/style.scss */
+/* line 513, ../sass/style.scss */
 #footer .container {
   overflow: hidden;
   width: 100%;
   height: 100%;
 }
-/* line 526, ../sass/style.scss */
+/* line 518, ../sass/style.scss */
 #footer .left {
   float: left;
   color: #ffffff;
@@ -602,7 +613,7 @@ section#ourworks p {
   margin-top: 40px;
   margin-left: 430px;
 }
-/* line 533, ../sass/style.scss */
+/* line 525, ../sass/style.scss */
 #footer .right {
   float: right;
   color: #ffffff;
