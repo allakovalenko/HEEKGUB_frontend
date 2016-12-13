@@ -1,25 +1,25 @@
 @import "compass/reset";
 
+
 body{
 font-size: 16px;
 line-height: 1.6;
 font-family: "OpenSansRegular", sans-serif;
-
 text-align: center;
-
 }
-
+			/*=========section#main==============*/
 section#main{
 height: 800px;
 background: url(../images/fon_01.png) center no-repeat;
 position: relative;
 background-size: cover;
 
-
-	.container{
+.container{
 	color: #ffffff;
 	overflow: hidden;
-	width: 100%;
+	width:100%;
+	max-width: 1170px;
+	margin: 0 auto;
 	height: 100%;
 	}
 		.designthings{
@@ -47,11 +47,19 @@ section#main{
 }
 
 .hat {
+	position: relative;
 	padding-top: 50px;
+	left: 120px;
 	.menu{
+
 	padding-left: 5px;
 	}
+	img{
+		position: relative;
+		padding-right: 5px;
+	}
 		i {
+			position: relative;
 		padding-right: 40px;
 		}
 }
@@ -78,11 +86,14 @@ section#main{
 		}
 			.scroll-down{
 			position: relative;
-			top:100px;
+			top:30px;
 			right: 10px;
 			font-size: 200%;
 		}
 }
+
+.scroll-down i{font-weight:100; }
+         /*=========section#services==============*/
 
 section#services {
 height: 500px;
@@ -92,37 +103,43 @@ position: relative;
 background-size: cover; 
 }
 
-section#services {
-	.container{
+
+	#services .container{
 	overflow: hidden;
 	width: 100%;
 	height: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
 	}
-	.design {
-margin-left:25%; 
-margin-top: 130px;
-	}
-	.design p{
+
+	#services .design li{
+	display:inline-block;
+	width: 260px;
+	margin-top: 100px;
+	height: 300px;
+      }
+
+	#services {
+		p{
 		overflow: hidden;
-		height: 60px;
+		height: 65px;
 		color:  #3b434c;
 		font-size: 16px;
 		font-weight: 100;
-
-	}
-	.design img{
+		}
+	 img{
 		border-radius: 50%;
 		padding: 40px;
 		border: 1px solid #c6c2c2;
+		}
+	}	
 
-	}
-}
 .design h2 {
 color: #3b434c;
 font-size: 16px;
 font-weight: 600;
 }
-
+			  /*=========section#subscription==============*/
 section#subscription {
 height: 250px;
 background: url(../images/fonsubs.png) center no-repeat;
@@ -130,12 +147,14 @@ position: relative;
 background-size: cover;
 .container{
 	overflow: hidden;
-	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
 	height: 100%;
+	width: 100%;
 	}
 }
 .subscribe {
-padding-top: 5%;
+padding-top: 100px;
  .email {
 width: 350px;
 height: 50px;
@@ -163,7 +182,7 @@ line-height: 40px;
  font-size: 14px;
   }
 }
-
+				/*=========section#ourworks==============*/
 section#ourworks {
 	height: 1300px;
 	width: 100%;
@@ -174,6 +193,8 @@ section#ourworks {
 	.container{
 	overflow: hidden;
 	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
 	height: 100%;
 	}
 	h2 {
@@ -182,7 +203,7 @@ section#ourworks {
 	font-size: 35px;
 	font-weight: 400;
 	line-height: 40px;
-	margin-top: 30px;
+	margin-top: 100px;
 	}
 	
 	.color {
@@ -193,12 +214,12 @@ section#ourworks {
 		line-height: 40px;
 	}
 	p{
-		margin-top: 2%;
+		margin-top: 30px;
 		color:  #3b434c;
 		font-size: 16px;
 		font-weight: 400;
 		line-height: 30px;
-		margin-bottom: 30px;
+		margin-bottom: 100px;
 	}
 }
 #ourworks.row img:nth-child(2){
@@ -269,8 +290,8 @@ margin-left: 10px;
 
 }	
 
-
-#clientsay {
+			/*=========section#clientsay==============*/
+section#clientsay {
 height: 500px;
 width: 100%;
 background: url(../images/fonsay.png) center no-repeat;
@@ -280,6 +301,8 @@ background-size: cover;
 .container{
 	overflow: hidden;
 	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
 	height: 100%;
 }
 
@@ -288,23 +311,25 @@ background-size: cover;
 
 .item {
 img {
-	position: relative;
+position: relative;
 margin-top: 100px;
-left: 850px;
-display: block;
-transition: 0.3s;
+
 }
 .col-md-2 img:hover{
 transform: scaleY(1.15);
 border-radius:10px 10px 0 0;
 border-bottom: 7px solid #f7600e;
-transition: 0.3s all ease-out;
+
 }
  p{
  	position: relative;
-	top:200px;
+ 	top: 200px;
+ 	
+ 	
+	
 }
 .response  {
+
 	font-size: 25px;
 	font-style: italic;
 }
@@ -316,22 +341,24 @@ font-size: 18px;
 #clientsay {
 .left {
 position: relative;
-right: 600px;
+right: 500px;
+
 
 }
 .right {
 position: relative;
-left: 600px;
+left: 500px;
+
 }
 .carousel-indicators {
 position: relative;
 top:450px;
+
 }
 }
 
-
-
-#ourteam {
+			/*=========section#ourteam==============*/
+section#ourteam {
 width: 100%;
 height: 1000px;
 background-color: #ffffff;
@@ -340,8 +367,10 @@ background-size: cover;
 	.container{
 	overflow: hidden;
 	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
 	height: 100%;
-	}
+}
 		h2 {
 		color:  #3b434c;
 		font-size: 35px;
@@ -359,8 +388,6 @@ background-size: cover;
 color:  #f7600e;
 font-size: 35px;
 }
-
-
 #ourteam{
 .team li{
 display:inline-block;
@@ -368,25 +395,81 @@ width: 260px;
 margin-top: 100px;
 height: 460px;
 }
+.social {margin-top: 30px;}
+.social a{
+display: inline-block;
+width: 25px;
+height: 25px;
+margin-right: 15px;
+border: 1px solid grey;
+-webkit-border-radius: 50%;
+-moz-border-radius:50%;
+-o-border-radius: 50%;
+border-radius:50%;
+background: url(../images/social.png) no-repeat;
+}
 }
 
+#ourteam{
+	.social a.ic-fb{
+		background: url(../images/fb.png) no-repeat;
+		background-position: 0 0;
+	}
 
+	.social a.ic-tw{
+		background: url(../images/tw.png) no-repeat;
+		background-position: 0 0;
+	}
+	.social a.ic-gl{
+		background: url(../images/gl.png) no-repeat;
+		background-position: 0 0;
+	}
+	}
 
+#ourteam{
+.social a.ic-fb:hover {
+		color: #ffffff;
+		background-color: #205b9f;
+		background: #205b9f;
+		}
+	.social a.ic-tw:hover{
+		color: #ffffff;
+		background-color:#00ace3;
+		background: #00ace3;
 
+	}
+	.social a.ic-gl:hover{
+		color: #ffffff;
+		background-color: #ff3921;
+		background: #ff3921;
+		}
+	}
+#ourteam{
+	.taem-item img{
+		width: 235px;
+		height: 283px;
+		}
+.taem-item img:hover {
+	transform:scaleY(1.15);
+	filter:none;
+	border-bottom: 7px solid #f7600e;
+	transition: 0.3s all ease-out;
+}
+}
 #ourteam .team h4{
-color:  #f7600e;
+color:  #3b434c;
 font-size: 25px;
 }
 #ourteam .team p{
 color:  #3b434c;
 font-size: 14px;
-margin-top: 90px;
+margin-top: 30px;
 font-weight: 400;
 line-height: 26px;
 }
 
-
-#hello {
+			/*=========section#hello==============*/
+section#hello {
 height: 800px;
 width: 100%;
 background: url(../images/foncontact.png) center no-repeat;
@@ -395,7 +478,9 @@ background-size: cover;
 	.container {
 		overflow: hidden;
 		width: 100%;
-		height: 100%;
+		max-width: 1170px;
+	margin: 0 auto;
+	height: 100%;
 	}
 		h2 {
 			color: #ffffff;
@@ -406,7 +491,6 @@ background-size: cover;
 			color: #f7600e;
 			}
 }
-
 #hello{
  	p{
  	color: #ffffff;
@@ -502,8 +586,8 @@ background: url(../images/be.png) no-repeat;
 background-size:100%;
 }
 }
-
-#footer {
+			/*=========section#footer==============*/
+section#footer {
 height: 100px;
 width: 100%;
 background-color: #3b434c;
@@ -513,6 +597,8 @@ background-size: cover;
 	.container {
 	overflow: hidden;
 	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
 	height: 100%;
 	}
 		.left {
@@ -529,4 +615,14 @@ background-size: cover;
 		margin-top: 40px;
 		margin-right: 430px;
 		}
+}
+
+
+/*=======RESPONSIVE==========*/
+ @media screen and (max-width: 1150px) {
+#services .design li{ margin-bottom: 100px;}
+}
+
+ @media screen and (max-width: 1150px) {
+.container { padding: 0 10px;}
 }
