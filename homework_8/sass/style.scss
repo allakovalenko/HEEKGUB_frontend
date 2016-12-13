@@ -266,7 +266,7 @@ margin-left: 10px;
 }
 #ourworks {
 	.table-cell-wrap h2{
-		padding-top: 90px;
+		margin-top: 80px;
 		color:  #ffffff;
 		font-size: 25px;
 
@@ -274,10 +274,10 @@ margin-left: 10px;
 .table-cell-wrap p {
 		color:  #ffffff;
 		font-size: 14px;
-		padding: 20px;
-		vertical-align: middle;
+		margin-bottom: 50px;
 		
-}
+
+		}
 .table-cell-wrap a {
     border-radius: 5px;
     padding: 10px 15px;
@@ -285,9 +285,7 @@ margin-left: 10px;
     border: 1px solid #ffffff;
     color: #f7600e;
     text-decoration: none;
-    margin-bottom: 50px;
-}
-
+    }
 }	
 
 			/*=========section#clientsay==============*/
