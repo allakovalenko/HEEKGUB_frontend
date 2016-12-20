@@ -1,0 +1,21 @@
+{
+  "name": "homework_9",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "allakovalenko <kukla_mega@mail.ru>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/allakovalenko/HEEKGUB_frontend",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  }
+}
