@@ -5,7 +5,7 @@ body {
 
 .container-menu {
   background-color: transparent;
-  height: 100%;
+  height: auto;
   width: 100%;
   color: #ffffff;
   position: fixed;
@@ -32,10 +32,6 @@ body {
 
 .container-menu li {
   float: right; }
-
-#welkome .carousel .item {
-  height: 1070px;
-  width: 100%; }
 
 #welkome .item img {
   width: 100%; }
