@@ -1,0 +1,378 @@
+$hover-color: #ffaf36;
+$footer-color:#2a2b2c;
+
+#header {
+  background: url("../images/home.jpg") no-repeat ;
+  height: 835px;
+  width: 100%;
+  background-size: cover;
+  .container{
+    overflow: hidden;
+  }
+}
+.navbar-inverse {
+  background: transparent;
+}
+.navbar-nav{
+  float: right;
+}
+.navbar{
+  border: none;
+}
+.navbar-inverse .navbar-nav>li>a{
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+  color:$hover-color;
+}
+.navbar-inverse .navbar-brand{
+  .logo {
+    float: left;
+
+  }
+  .fa {
+    float: right;
+    padding-top: 15px;
+    padding-left: 10px;
+    color: $hover-color;
+    font-size: x-large;
+  }
+  .number{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}
+.navbar-nav {
+  padding-top: 15px;
+}
+
+#header {
+  .jumbotron{
+    background-color: transparent;
+    margin-left:430px ;
+    padding-top: 240px;
+    padding-bottom: 260px;
+
+  }
+  .jumbotron .welcome{
+    color:  #ffffff;
+    font-size: 16px;
+  }
+  .jumbotron h1{
+    color:  #ffffff;
+    font-size: 60px;
+  }
+  .jumbotron p{
+    color:  #ffffff;
+    font-size: 15px;
+    font-style: italic;
+  }
+}
+#header .btn{
+  background-color: $hover-color;
+  color:  #1c1c1c;
+  font-size: 13px;
+  padding:10px 20px 10px 20px;
+  border: 1px solid transparent;
+  border-radius: 0;
+  font-style: normal;
+}
+#about_us  .col-lg-6{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  .btn{
+    background-color: #ffffff;
+    border: 1px solid $hover-color;
+    color:$hover-color;
+    font-size: 13px;
+  }
+}
+#about_us {
+  .col-lg-6 h2 {
+    color: #1c1c1c;
+    font-size: 30px;
+  }
+  .story {
+    color: #1c1c1c;
+    font-size: 16px;
+    font-style: italic;
+  }
+}
+  #services {
+    .col-lg-12 h2 {
+      color: #1c1c1c;
+      font-size: 30px;
+    }
+    .col-lg-12 p {
+      color: #1c1c1c;
+      font-size: 16px;
+      font-style: italic;
+    }
+    .icon{
+      margin-top: 20px;
+    }
+    .img{
+      margin-top: 160px;
+    }
+  }
+#services {
+  .row{
+    margin-top: 20px;
+  }
+  h3{
+    color:  #1c1c1c;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  p{
+    color:  #585858;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .btn{
+    background-color: #ffffff;
+    border: 1px solid $hover-color;
+    color:$hover-color;
+    font-size: 13px;
+    margin-top: 60px;
+  }
+}
+#clients{
+  .jambo h2 {
+    color: #1c1c1c;
+    font-size: 30px;
+  }
+  .jambo p {
+    color: #1c1c1c;
+    font-size: 16px;
+    font-style: italic;
+  }
+  .col-lg-12{
+    padding-left: 0;
+  }
+}
+#clients{
+.col-lg-4 {
+  background: url("../images/quote3.jpg")no-repeat;
+}
+  .col-lg-4 p {
+    margin-top: 55px;
+    font-family: 'Open Sans', sans-serif;
+    color:  #585858;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .client .name{
+    float:right;
+    margin-right:100px ;
+    margin-bottom: 150px;
+  }
+ li{
+   list-style-type: none;
+ }
+}
+#clients{
+  .name li:first-child{
+    font-family: 'Raleway', sans-serif;
+    color:  #1c1c1c;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .name li:last-child{
+    font-family: 'Open Sans', sans-serif;
+    color:  #585858;
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+
+#news{
+  .col-lg-12{
+    padding-left: 0;
+    margin-bottom: 50px;
+  }
+  .col-lg-12 h2{
+    font-family: 'Raleway', sans-serif;
+    color:  #1c1c1c;
+    font-size: 30px;
+  }
+  .col-lg-12 p{
+    color:  #1c1c1c;
+    font-size: 16px;
+    font-style: italic;
+  }
+}
+#news {
+  .col-lg-1 li{
+    list-style-type: none;
+    padding-left: 0;
+
+  }
+  .col-lg-1 {
+    padding-left: 0;
+  }
+  .list-group li{
+    border-bottom: solid 3px $hover-color;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+#news{
+  h4{
+    padding-top: 15px;
+      font-weight: 700;
+      font-family: 'Raleway', sans-serif;
+      color:  #1c1c1c;
+      font-size: 16px;
+    }
+  p{
+   font-family: 'Open Sans', sans-serif;
+    color:  #585858;
+    font-size: 14px;
+  }
+.badge{
+  background-color:transparent;
+  color:$hover-color;
+  padding-bottom: 10px;
+}
+ hr{
+   border: none;
+   background-color: #d8dcdf ;
+   height: 2px;
+}
+}
+
+#news{
+  .coment1{
+    padding-bottom: 10px;
+    margin-top: -20px;
+
+  }
+.btn{
+  background-color: #ffffff;
+  border: 1px solid $hover-color;
+  color:$hover-color;
+  font-size: 13px;
+  margin-top: 10px;
+  margin-bottom: 130px;
+}
+}
+
+#partners{
+  .col-lg-12{
+    padding-left: 0;
+    margin-bottom: 50px;
+  }
+  .col-lg-12 h2{
+    font-family: 'Raleway', sans-serif;
+    color:  #1c1c1c;
+    font-size: 30px;
+  }
+  .col-lg-12 p{
+    color:  #1c1c1c;
+    font-size: 16px;
+    font-style: italic;
+  }
+
+}
+#partners{
+.carousel-control{
+  top:200px;
+  background: transparent;
+
+}
+.carousel-indicators li{
+  background-color:#36a8ff;
+
+}
+  .carousel-indicators li:first-child{
+    background-color:$hover-color;
+  }
+  .carousel-indicators{
+    left:0;
+    bottom: -20px;
+  }
+}
+
+
+
+
+
+
+
+
+#footer{
+      background-color:$footer-color ;
+      .business{
+        padding-top:125px ;
+      }
+      p{
+        padding-top: 10px;
+        color:#8e8e8e;
+      }
+      .row{
+        padding-left: 10px;
+        padding-top: 20px;
+
+      }
+    }
+    #footer{
+      a{
+        background-color:$footer-color ;
+        border-right:none;
+        border-left: none;
+        border-color: #737476;
+        color:#737476;
+        width: 50%;
+
+
+      }
+      .col-lg-4 h2,.col-lg-5 h2{
+        color:  #ffffff;
+        font-size: 18px;
+        padding-top: 80px;
+      }
+      .btn{
+        color: $hover-color;
+        font-size: 13px;
+        background: transparent;
+        border-color: $hover-color;
+        font-weight: 700;
+        line-height: 24px;
+      }
+    }
+    #footer {
+      .fa-caret-right {
+        color: $hover-color;
+      }
+      .list-group-item a {
+        margin-right: 10px;
+      }
+      input {
+        height: 50px;
+        width: 200px;
+        background-color: $footer-color;
+        padding-left: 5px;
+      }
+      .right {
+        float: left;
+
+      }
+    }
+    #footer{
+      textarea{
+        background-color:$footer-color ;
+        border-color: #737476;
+        padding-left: 5px;
+      }
+      .col-lg-4{
+        margin-bottom: 90px;
+      }
+    }
+
