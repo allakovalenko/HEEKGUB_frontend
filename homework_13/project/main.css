@@ -1,4 +1,16 @@
 @import url("http://fonts.googleapis.com/css?family=Droid+Sans");
+@media screen and (max-width: 1280px) {
+  div.contentblock {
+    width: 1200px; } }
+
+@media screen and (max-width: 1140px) {
+  div.contentblock {
+    width: 1024px; } }
+
+@media screen and (max-width: 992px) {
+  div.contentblock {
+    width: 970px; } }
+
 #header {
   background-color: #ff5959;
   width: 100%;
@@ -97,7 +109,7 @@
   background-color: #ff5959;
   height: 100%;
   width: 100%; }
-  #portfolio .col-lg-6 img, #portfolio .col-md-3 img {
+  #portfolio .col-lg-6 img, #portfolio .col-lg-3 img {
     display: block;
     width: auto;
     height: auto; }
@@ -107,13 +119,17 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
     opacity: 0;
     transition: .5s ease;
     background-color: #ffbfbf; }
-  #portfolio .col-lg-6 .hover-block:hover {
-    opacity: 0.6; }
+
+#portfolio .col-lg-6 .hover-block:hover {
+  opacity: 0.6; }
+
+#portfolio .col-lg-3 .hover-block:hover {
+  opacity: 0.6; }
 
 #portfolio .hover-block h4 {
   text-align: center;
@@ -138,22 +154,11 @@
 #portfolio .row {
   margin-top: 60px; }
 
-#portfolio .col-md-3 .hover-block:hover {
+#portfolio .col-lg-3 .hover-block:hover {
   opacity: 0.6; }
 
-#portfolio .col-md-3 {
+#portfolio .col-lg-3 {
   margin-bottom: 100px; }
-
-#team .round {
-  width: 265px;
-  height: 265px;
-  background: #e3e3e3;
-  border: 1px solid #939393;
-  line-height: 300px;
-  text-align: center;
-  font-size: 50px;
-  color: blue;
-  border-radius: 150px; }
 
 .sprite {
   background-image: url(../images/spritesheet.png);
@@ -217,6 +222,13 @@
   font-family: 'Quicksand', sans-serif;
   font-weight: 400;
   color: #000000; }
+
+#team .round {
+  width: 265px;
+  height: 265px;
+  background: #e3e3e3;
+  border: 1px solid #939393;
+  border-radius: 150px; }
 
 #team h4 {
   font-size: 24px;
