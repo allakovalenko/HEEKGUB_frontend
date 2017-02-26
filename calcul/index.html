@@ -5,41 +5,47 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Calcul</title>
+    <link rel="stylesheet" href="./libs/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap/js/bootstrap.min.js">
+    <link rel="stylesheet" href="./project/main.css">
+    <link rel="stylesheet" href="./project/main.js">
+    <title>Calculator</title>
 </head>
 <body>
-    <form action="" name="calc" id="calculator">
-        <table>
-            <tr>
-                <td>
-                    <input type="text" name="input" class="display">
-                    <input type="button" name="div" value="/">
-
-                </td>
-            </tr>
-            <tr>
-                <td class="buttons">
-                        <input type="button" name="seven" value="7">
-                        <input type="button" name="eight" value="8">
-                        <input type="button" name="nine" value="9">
-                        <input type="button" name="mul" value="x">
-                        <br>
-                         <input type="button" name="four" value="4">
-                         <input type="button" name="five" value="5">
-                         <input type="button" name="six" value="6">
-                         <input type="button" name="min" value="-">
-                         <br>
-                        <input type="button" name="one" value="1">
-                        <input type="button" name="two" value="2">
-                        <input type="button" name="three" value="3">
-                        <input type="button" name="plus" value="+">
-                        <br>
-                        <input type="button" name="zero" value="0">
-                        <input type="button" name="dot" value=".">
-                        <input type="button" name="doit" value="=">
-                    </td>
-                </tr>
-        </table>
+<div class="calculator">
+    <form action="#" class="calc-form">
+        <div class="calc-row">
+            <input class="calculator-display" id="display" type="text" disabled />
+        </div>
+        <div class="calc-row">
+            <button type="button" value="c" class="calculator-key calculator-clear">c</button>
+            <button type="button" value="/" class="calculator-key calculator-button">/</button>
+        </div>
+        <div class="calc-row">
+            <button type="button" value="7" class="calculator-key calculator-button">7</button>
+            <button type="button" value="8" class="calculator-key calculator-button">8</button>
+            <button type="button" value="9" class="calculator-key calculator-button">9</button>
+            <button type="button" value="*" class="calculator-key calculator-button">*</button>
+        </div>
+        <div class="calc-row">
+            <button type="button" value="4" class="calculator-key calculator-button">4</button>
+            <button type="button" value="5" class="calculator-key calculator-button">5</button>
+            <button type="button" value="6" class="calculator-key calculator-button">6</button>
+            <button type="button" value="-" class="calculator-key calculator-button">-</button>
+        </div>
+        <div class="calc-row">
+            <button type="button" value="1" class="calculator-key calculator-button">1</button>
+            <button type="button" value="2" class="calculator-key calculator-button">2</button>
+            <button type="button" value="3" class="calculator-key calculator-button">3</button>
+            <button type="button" value="+" class="calculator-key calculator-button">+</button>
+        </div>
+        <div class="calc-row">
+            <button type="button" value="0" class="calculator-key calculator-key-null">0</button>
+            <button type="button" value="." class="calculator-key calculator-button">.</button>
+            <button type="button" value="=" class="calculator-key calculator-button">=</button>
+        </div>
     </form>
+</div>
 </body>
 </html>
